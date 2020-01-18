@@ -12,7 +12,7 @@
 
 Name: python-mako
 Version: 0.8.1
-Release: 1%{?dist}
+Release: 2%{?dist}
 Summary: Mako template library for Python
 
 Group: Development/Languages
@@ -134,6 +134,9 @@ rm -rf %{buildroot}
 %endif
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.8.1-2
+- Mass rebuild 2013-12-27
+
 * Mon Jul 15 2013 Bohuslav Kabrda <bkabrda@redhat.com> - 0.8.1-1
 - Update to 0.8.1
 
